@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.cabeza{
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;
+}
+.regresar{
+	display: grid;
+	place-items: center;
+	text-decoration: none;
+	background: #A6FFB5;
+	border-radius: 15px;
+	color: black;
+}
+.regresar:hover{
+	background: #A6B5FF;
+	color: black;
+	transition: all .3s ease;
+}
+.formulario{
+	background: #FFD0A6;
+	display: grid;
+	place-items: center;
+	border-radius: 30px;
+}
+.etiqueta{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.contenedor{
+	border: none;
+	margin-left: 10px;
+	color: black;
+	background: #FAFF95;
+	-webkit-transition: 0.6s;
+	height: 1.4rem;
+	font-size: 1rem;
+}
+input[type=text]:focus{
+	outline: none;
+	background: white;
+	-webkit-transition: 0.6s;
+	color: black;
+}
+input[type=number]:focus{
+	outline: none;
+	background: white;
+	-webkit-transition: 0.6s;
+	color: black;
+}
+
+.actualizar{
+	display: flex;
+	justify-content: center;
+}
+.submit{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	width: 30%;
+	height: 2.5rem;
+	border-radius: 15px;
+	border: none;
+	background: #FFA00E;
+	transition: all .2s ease-in-out;
+}
+.submit:hover{
+	background: white;
+	color: black;
